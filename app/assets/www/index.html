@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<title>Код</title>
+<link rel="stylesheet" href="css/app.css">
+<script src="ace/ace.js"></script>
+<script src="ace/ext-language_tools.js"></script>
+<script src="ace/ext-modelist.js"></script>
+<script src="ace/ext-whitespace.js"></script>
+</head>
+<body>
+<div id="app">
+  <header id="top">
+    <button class="ib" id="bDrawer" aria-label="Файли і папка"></button>
+    <div id="tabs" role="tablist"></div>
+    <button class="ib" id="bRun" aria-label="Запустити" hidden></button>
+    <button class="ib" id="bFind" aria-label="Пошук"></button>
+    <button class="ib" id="bSave" aria-label="Зберегти"></button>
+    <button class="ib" id="bMenu" aria-label="Меню"></button>
+  </header>
+  <div id="findbar" hidden></div>
+  <main id="stage">
+    <div id="editor"></div>
+    <div id="selbar" hidden></div>
+    <div id="empty" hidden></div>
+  </main>
+  <footer id="status"></footer>
+  <div id="keys"></div>
+</div>
+<div id="drawer" aria-hidden="true"><div class="scrim"></div><aside class="panel"></aside></div>
+<div id="layers"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/icons.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/mock.js"></script>
+<script src="js/native.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/themes.js"></script>
+<script src="js/langs.js"></script>
+<script src="js/tabs.js"></script>
+<script src="js/workspace.js"></script>
+<script src="js/search.js"></script>
+<script src="js/edit.js"></script>
+<script src="js/commands.js"></script>
+<script src="js/format.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/keys.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
